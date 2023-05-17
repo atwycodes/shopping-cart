@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-primary {
+    @apply text-lg font-bold text-slate-50 dark:text-slate-900;
+  }
+
+  .emoji-theme-switcher {
+    @apply text-xl;
+  }
+}
